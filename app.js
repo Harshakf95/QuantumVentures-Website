@@ -1,3 +1,14 @@
+document.querySelector('a[href="#home"]').addEventListener('click', function(e) {
+    e.preventDefault(); // Prevent default jump
+  
+    const heroSection = document.getElementById('hero');
+    if (heroSection) {
+      window.scrollTo({
+        top: heroSection.offsetTop, // Scroll to top of hero
+        behavior: 'smooth'
+      });
+    }
+  });
 $(function () {
     let headerElem = $('header');
     let logo = $('#logo');

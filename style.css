@@ -20,13 +20,13 @@ body {
 }
 
 .container {
-  color: #2eca6a;
   max-width: 1500px;
   margin: 0 auto;
   padding: 0 12px;
 }
 
 .flex {
+  color: #2eca6a;
   display: flex;
   justify-content: space-between;
 }

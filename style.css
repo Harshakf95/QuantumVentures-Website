@@ -4,6 +4,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  /* margin-top: auto; */
   padding: 0;
   font-size: 1rem;
   font-weight: 400;
@@ -122,8 +123,9 @@ p.large-paragraph {
 }
 
 header {
+  margin: 0;
   background: #fff;
-  padding: 20px;
+  padding: 1rem -1;
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
   position: fixed;
   width: 100%;
@@ -137,7 +139,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 1000;
   position: fixed;
 }
 #logo {

@@ -328,7 +328,7 @@ header ul.is-sticky li a.hover {
 }
 
 #properties-slider img {
-  width: 100%;
+  width: auto;
   display: block;
 }
 

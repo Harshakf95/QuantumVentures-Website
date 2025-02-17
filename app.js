@@ -1,25 +1,10 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
-
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
 $(function () {
     let headerElem = $('header');
     let logo = $('#logo');
     let navMenu = $('#nav-menu');
     let navToggle = $('#nav-toggle');
 
-   $('#blogs-slider').slick({
+   $('#properties-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
@@ -52,7 +37,7 @@ $(function () {
         ]
    });
 
-   $('#blogs-slider').slick({
+   $('#testimonials-slider').slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,

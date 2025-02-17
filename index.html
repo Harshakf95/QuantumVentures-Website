@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="img/favicon.png">
     <title>The Quantum Ventures Estate</title>
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link href="style.css" type="text/css" rel="Stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/6.2.1/jquery.min.js"></script>
     <!-- <script src="https://kit.fontawesome.com/95dc93da07.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="app.js">
 </head>
 
 <body>
@@ -38,34 +43,49 @@
                 </nav>
             </div>
         </header>
-        
-        <section id="hero">
-            <div class="fade"></div>
-            <div class="hero-text">
-                <h1>Buy and sell real estate properties</h1>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-        </section>
+
+
+    </div>
+    <section id="hero">
+        <div class="fade"></div>
+        <div class="hero-text">
+            <h1>Buy and sell real estate properties</h1>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                the blind texts.</p>
+        </div>
+    </section>
     </div>
     <section id="services">
         <div class="container">
             <h2>Services</h2>
-            <div class="services-grid">
+            <div class="flex">
+
                 <div>
                     <div class="fas fa-home"></div>
                     <div class="services-card-right">
                         <h3>Search Property</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
 
-                
+                <div>
+                    <div class="fas fa-dollar-sign"></div>
+                    <div class="services-card-right">
+                        <h3>Buy Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
                 <div>
                     <div class="fas fa-chart-line"></div>
                     <div class="services-card-right">
                         <h3>Investing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -74,7 +94,8 @@
                     <div class="fas fa-building"></div>
                     <div class="services-card-right">
                         <h3>List a Property</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
@@ -83,24 +104,35 @@
                     <div class="fas fa-search"></div>
                     <div class="services-card-right">
                         <h3>Property Locator</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
 
+                <div>
+                    <div class="fas fa-mobile-alt"></div>
+                    <div class="services-card-right">
+                        <h3>Stated Apps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae
+                            eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>We are the leading real estate company with years of experience helping people find their dream homes.</p>
+            <p>We are the leading real estate company with years of experience helping people find their dream homes.
+            </p>
         </div>
     </section>
     <section id="how-it-works">
         <div class="container">
             <h2>How It Works</h2>
-            <div class="steps-container">
+            <div class="flex">
                 <div>
                     <span class="fas fa-home"></span>
                     <h4>Find a Property.</h4>
@@ -181,10 +213,10 @@
                 <div>
                     <img src="./img/property-3.jpg" alt="Property 1" />
                     <div class="property-details">
-                        <p class="price">$3,400,000</p>
+                        <!-- <p class="price">$3,400,000</p>
                         <span class="beds">6 beds</span>
                         <span class="baths">4 baths</span>
-                        <span class="sqft">4,250 sqft.</span>
+                        <span class="sqft">4,250 sqft.</span> -->
                         <address>
                             1318, Marenahalli, JP Nagar 2nd Phase, Bangalore , India 560078
                         </address>
@@ -194,7 +226,7 @@
 
             <button class="rounded">View All Property Listings</button>
         </div>
-    </section>  
+    </section>
     <section id="blogs">
         <div class="container">
             <h2>Blogs</h2>
@@ -208,7 +240,8 @@
             <div>
                 <h2>We Are the Best Real Estate Company</h2>
                 <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi
+                    voluptas impedit Quo suscipit omnis iste velit maxime.</p>
                 <ul>
                     <li>Placeat maxime animi minus</li>
                     <li>Placeat maxime animi minus</li>
@@ -227,7 +260,9 @@
             <div id="blogs-slider">
                 <div>
                     <blockquote>
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo
+                            dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta
+                            molestiae dolorum laudantium."</p>
                     </blockquote>
                     <div class="blogs-caption">
                         <img src="https://onclickwebdesign.com/wp-content/uploads/person_7.jpg" alt="Client 7" />
@@ -237,7 +272,9 @@
 
                 <div>
                     <blockquote>
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo
+                            dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta
+                            molestiae dolorum laudantium."</p>
                     </blockquote>
                     <div class="testimonials-caption">
                         <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Client 7" />
@@ -247,7 +284,9 @@
 
                 <div>
                     <blockquote>
-                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo
+                            dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta
+                            molestiae dolorum laudantium."</p>
                     </blockquote>
                     <div class="blogs-caption">
                         <img src="https://onclickwebdesign.com/wp-content/uploads/person_8.jpg" alt="Client 7" />
@@ -302,7 +341,8 @@
         <div class="flex container">
             <div class="footer-about">
                 <h5>About Stated</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum
+                    autem. Amet aliquid nesciunt veritatis aliquam.</p>
             </div>
 
             <div class="footer-quick-links">
@@ -324,8 +364,10 @@
 
                 <h5 class="follow-us">Follow Us</h5>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/your-page-name" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com/your-handle" target="_blank"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="https://www.facebook.com/your-page-name" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/your-handle" target="_blank"><i
+                            class="fa-brands fa-x-twitter"></i></i></a>
                     <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
@@ -336,6 +378,7 @@
             Copyright &copy; 2025 All rights reserved | This template is made with <span class="fa fa-heart"></span>
         </small>
     </footer>
-   <script src="/app.js"></script>
+    <script src="/app.js"></script>
 </body>
+
 </html>

@@ -99,7 +99,7 @@ p {
 }
 
 button.rounded {
-  background: #2eca6a;
+  background: #d9ece1;
   border: none;
   color: #fff;
   font-size: 16px;
@@ -196,7 +196,7 @@ header ul li {
 }
 
 header ul li a {
-  color: #999;
+  color: #181616;
   font-size: 16px;
   text-decoration: none;
   transition: 0.3s;
